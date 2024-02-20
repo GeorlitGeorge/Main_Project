@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Medication List for AM -->
+    <TextView
+        android:id="@+id/amMedicationList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/am"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <!-- Medication List for PM -->
+    <TextView
+        android:id="@+id/pmMedicationList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pm"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/amMedicationList"
+        android:layout_margin="16dp" />
+
+    <!-- "+" Button to Add New Medication -->
+    <Button
+        android:id="@+id/addMedicationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/add_medication"
+        android:textSize="24sp" />
+
+</RelativeLayout>

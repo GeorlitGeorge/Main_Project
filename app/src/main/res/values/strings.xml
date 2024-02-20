@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Main_Project</string>
+    <string name="medication_name">Medication Name</string>
+    <string name="time_to_take">Time to take:</string>
+    <string name="enter_name_of_medicine">Enter name of medicine</string>
+    <string name="dose">Dose:</string>
+    <string name="enter_dose">Enter dose</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="save">Save</string>
+    <string name="medication_list">Medication List</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="logo_of_CareWave">logo of CareWave</string>
+
+
+</resources>
