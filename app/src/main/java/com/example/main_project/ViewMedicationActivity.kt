@@ -1,6 +1,5 @@
 package com.example.main_project
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
@@ -11,12 +10,8 @@ class ViewMedicationActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(activity_view_medication)
 
-        val buttonNavigate= findViewById<Button>(R.id.addMedicationButton)
-        buttonNavigate.setOnClickListener {
-            val intent = Intent(this, SetMedicationActivity::class.java)
-            startActivity(intent)
-           }
+
+        }
 
     }
-}
 
